@@ -1,11 +1,12 @@
 {
-  "name": "dream-frontend",
+  "name": "dream",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://ellinorelisabeth.github.io/dream",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
