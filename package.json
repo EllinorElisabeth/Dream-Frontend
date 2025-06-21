@@ -2,7 +2,7 @@
   "name": "dream",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ellinorelisabeth.github.io/dream",
+  "homepage": "https://ellinorelisabeth.github.io/Dream-Frontend",
   "type": "module",
   "scripts": {
     "dev": "vite",
