@@ -7,7 +7,7 @@ import Navigationbar from '../components/Navigation/Navigationbar';
 const AppRouting = () => {
     return (
         <>
-            <BrowserRouter basename='dream'>
+            <BrowserRouter basename='Dream-Frontend'>
                 <Provider>
                     <Navigationbar />
                     <Routes>
