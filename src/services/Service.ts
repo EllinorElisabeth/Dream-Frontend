@@ -3,9 +3,7 @@ import IThought from '../interfaces/IThought';
 
 const isLocalHost = window.location.hostname === 'localhost';
 
-const BASE_URL = isLocalHost
-    ? 'http://localhost:5115/Thought'
-    : 'https://dream-backend-5c32.onrender.com';
+const BASE_URL = isLocalHost ? 'http://localhost:5115/Thought' : 'https://dream-backend-5c32.onrender.com/api/Thought';
 
 const Service = (
     () => {
